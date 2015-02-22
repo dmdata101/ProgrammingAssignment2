@@ -3,6 +3,8 @@
 
 ## Functions below cache computationally intensive calculations such as inverting a matrix
 
+## Code by dmdata101
+
 ## Write a short comment describing this function
 
 ## Creates a 'matrix' which is in fact functions to allow caching the result if already computed.
