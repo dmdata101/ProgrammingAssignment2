@@ -38,7 +38,7 @@ cacheSolve <- function(x, ...) {
     return(i)
   }
   data <- x$get()
-  i <- solve(data,...)
+  i <- solve(data,...) ## This is where the matrix inversion is performed.
   x$setinvert(i)
   i
   
